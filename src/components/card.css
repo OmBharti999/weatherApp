@@ -1,0 +1,36 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  margin: 40px;
+  min-height: 240px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.top {
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+}
+.place {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+.more-detail {
+  display: flex;
+  /* justify-content:center; */
+  align-items: center;
+}
+
+.img-container {
+  width: 140px;
+}
+.time {
+  padding: 1vw;
+  color: rgb(179, 179, 51);
+}
+
+.top-inside {
+  padding: 4%;
+}
